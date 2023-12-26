@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="assets/img/small-logos/uniba.png">
+  <link rel="stylesheet" href="clientcss/map.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Map Digital Pokdarwis</title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="assets/css/soft-ui-dashboard.css?v=1.0.3" rel="stylesheet" />
+  <link rel="stylesheet" href="clientcss/bootstrap.min.css">
+  <link rel="stylesheet" href="clientcss/style.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+  integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body  >
+ 
+<div id="gombeng" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container"> 
+        <span onclick="document.getElementById('gombeng').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>gombeng</h2>
+      </header>
+      <div class="w3-container">
+        <img src="icon\gombeng.png"  style="width: 100%;height: 640px;">
+      </div>
+      <footer class="w3-container ">
+       
+      </footer>
+    </div>
+</div>
+<div id="bangsring" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container"> 
+        <span onclick="document.getElementById('bangsring').style.display='none'" 
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <h2>bangsring</h2>
+      </header>
+      <div class="w3-container">
+        <img src="icon/bangsring.jpg"  style="width: 100%;height: 640px;">
+      </div>
+      <footer class="w3-container ">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+</div>
+<div id="bimo" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container"> 
+      <span onclick="document.getElementById('bimo').style.display='none'" 
+      class="w3-button w3-large w3-display-topright">&times;</span>
+      <h2>bimo</h2>
+    </header>
+    <div class="w3-container">
+      <img src="icon/bimo.jpg"  style="width: 100%;height: 640px;">
+    </div>
+    <footer class="w3-container ">
+      <p>Modal Footer</p>
+    </footer>
+  </div>
+</div>
+<div id="cacalan" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container"> 
+      <span onclick="document.getElementById('cacalan').style.display='none'" 
+      class="w3-button w3-large w3-display-topright">&times;</span>
+      <h2>cacalan</h2>
+    </header>
+    <div class="w3-container">
+      <img src="icon/cacalan.jpg"  style="width: 100%;height: 640px;">
+    </div>
+    <footer class="w3-container ">
+      <p>Modal Footer</p>
+    </footer>
+  </div>
+</div>
+<div id="cemar" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container"> 
+      <span onclick="document.getElementById('cemar').style.display='none'" 
+      class="w3-button w3-large w3-display-topright">&times;</span>
+      <h2>cemara</h2>
+    </header>
+    <div class="w3-container">
+      <img src="icon/cemar.jpg"  style="width: 100%;height: 640px;">
+    </div>
+    <footer class="w3-container ">
+      <p>Modal Footer</p>
+    </footer>
+  </div>
+</div>
+<div id="gwd" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container"> 
+      <span onclick="document.getElementById('gwd').style.display='none'" 
+      class="w3-button w3-large w3-display-topright">&times;</span>
+      <h2>Grand Watu dodol</h2>
+    </header>
+    <div class="w3-container">
+      <img src="icon/gwd.jpg"  style="width: 100%;height: 640px;">
+    </div>
+    <footer class="w3-container ">
+      <p>Modal Footer</p>
+    </footer>
+  </div>
+</div>
+<div id="seruni" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container"> 
+      <span onclick="document.getElementById('seruni').style.display='none'" 
+      class="w3-button w3-large w3-display-topright">&times;</span>
+      <h2>Sendang Seruni</h2>
+    </header>
+    <div class="w3-container">
+      <img src="icon/seruni.jpg"  style="width: 100%;height: 640px;">
+    </div>
+    <footer class="w3-container ">
+      <p>Modal Footer</p>
+    </footer>
+  </div>
+</div>
+<div id="sodong" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content w3-card-4">
+    <header class="w3-container"> 
+      <span onclick="document.getElementById('sodong').style.display='none'" 
+      class="w3-button w3-large w3-display-topright">&times;</span>
+      <h2>Goa Sodong</h2>
+    </header>
+    <div class="w3-container">
+      <img src="icon/sodong.jpg"  style="width: 100%;height: 640px;">
+    </div>
+    <footer class="w3-container ">
+      <p>Modal Footer</p>
+    </footer>
+  </div>
+</div>
+
+  <div  >
+    <main >
+    <!-- End Navbar -->
+    <div class="container-fluid py-4">
+        <div class="col-lg-12 mb-lg-0 mb-4">
+          <div class="card z-index-2">
+            <div class="card-body p-3">
+                <div id="map" style="color:rgba(246, 255, 0, 0.317);">
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    </div>
+    </main>
+
+    <div class="fixed-plugin">
+    <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
+      <i class="fa fa-cog py-2"> </i>
+    </a>
+    <div class="card shadow-lg ">
+      <div class="card-header pb-0 pt-3 ">
+        <div class="float-start">
+          <h5 class="mt-3 mb-0">Map Digital Pokdarwis</h5>
+          <p>options.</p>
+        </div>
+        <div class="float-end mt-4">
+          <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <!-- End Toggle Button -->
+      </div>
+      <hr class="horizontal dark my-1">
+      <div class="card-body pt-sm-3 pt-0">
+        <!-- Sidebar Backgrounds -->
+        <div>
+          <h6 class="mb-0">Sidebar Colors</h6>
+        </div>
+        <a href="javascript:void(0)" class="switch-trigger background-color">
+          <div class="badge-colors my-2 text-start">
+            <span class="badge filter bg-gradient-primary active" data-color="primary" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-warning" data-color="warning" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-danger" data-color="danger" onclick="sidebarColor(this)"></span>
+          </div>
+        </a>
+        <!-- Sidenav Type -->
+        <div class="mt-3">
+          <h6 class="mb-0">Sidenav Type</h6>
+         
+        </div>
+        <div class="d-flex">
+        
+            <a class="btn bg-gradient-primary w-100 px-3 mb-2 ms-2" data-class="bg-white" href="https://wedexyz.github.io/jajalvideo/">Kembali</a>
+        </div>
+        <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
+    
+       
+    
+      </div>
+    </div>
+    </div>
+
+		
+  </div>
+
+ 
+
+  <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+ 
+
+<script>
+   var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+</script>
+
+<script src="assets/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/anim.js"></script>
+<script src="clientjs/jquery-3.2.1.slim.min.js"></script>
+<script src="clientjs/pooper.min.js"></script>
+<script src="clientjs/bootsratp.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+
+
+<script>
+ 
+
+
+
+
+  
+  var div = document.getElementById('map'); 
+  var map = L.map(div).setView([ -8.172039972356833, 114.46097018187041],11);
+  
+  L.tileLayer(
+   // 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png',
+   'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    //'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    {
+              maxZoom: 22,
+              id: 'nareeve2/ckfk3lm4h1xoi19lvgl5nnk2h',
+              tileSize: 512,
+              zoomOffset: -1
+          }).addTo(map);
+  
+ //var popup = L.popup();
+
+function onMapClick(e) {
+        setLatLng(e.latlng)
+        .openOn(map);
+}
+
+map.on('click', onMapClick);
+
+
+
+var gombengicon = L.icon({iconUrl: 'icon/gombeng.png',iconSize:[50, 50],});
+var bangsringicon   = L.icon({iconUrl: 'icon/bangsring.jpg',iconSize:[50, 50],});
+var cacalanicon     = L.icon({iconUrl: 'icon/cacalan.jpg',iconSize:[50, 50],});
+var sodongicon      = L.icon({iconUrl: 'icon/sodong.jpg',iconSize:[50, 50],});
+var bimorejoicon    = L.icon({iconUrl: 'icon/bimo.jpg',iconSize:[50, 50],});
+var cemaraicon      = L.icon({iconUrl: 'icon/cemar.jpg',iconSize:[50, 50],});
+var seruniicon      = L.icon({iconUrl: 'icon/seruni.jpg',iconSize:[50, 50],});
+var gwdicon         = L.icon({iconUrl: 'icon/gwd.jpg',iconSize:[50, 50],});
+
+ //marker latlng
+ var gombeng   = L.latLng(-8.10405176582913, 114.32216515608886)
+ var bangsring = L.latLng(-8.054116608874851, 114.43073479121144)
+ var cacalan   = L.latLng(-8.188313230433439, 114.37892410194816)
+ var sodong    = L.latLng(-8.186749334588844, 114.3243785848247)
+ var bimorejo  = L.latLng(-7.937087205124772, 114.42369433634144)
+ var cemara    = L.latLng(-8.252846075401347, 114.37329605939914)
+ var seruni    = L.latLng(-8.278503306891157, 114.36342621642008)
+ var gwd       = L.latLng(-8.087497294406251, 114.41631422117675)
+
+ 
+ var m1 = L.marker(gombeng,   {icon: gombengicon,})
+ var m2 = L.marker(bangsring, {icon: bangsringicon,})
+ var m3 = L.marker(cacalan,   {icon: cacalanicon,})
+ var m4 = L.marker(sodong,    {icon: sodongicon,})
+ var m5 = L.marker(bimorejo,  {icon: bimorejoicon,})
+ var m6 = L.marker(cemara,    {icon: cemaraicon,})
+ var m7 = L.marker(seruni,    {icon: seruniicon,})
+ var m8 = L.marker(gwd,       {icon: gwdicon,})
+ 
+
+  m1.addTo(map).bindPopup(`<button onclick="document.getElementById('gombeng').style.display='block'" class="w3-button w3-black">Perbesar</button> ` )
+  m2.addTo(map).bindPopup(`<button onclick="document.getElementById('bangsring').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+  m3.addTo(map).bindPopup(`<button onclick="document.getElementById('cacalan').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+  m4.addTo(map).bindPopup(`<button onclick="document.getElementById('sodong').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+  m5.addTo(map).bindPopup(`<button onclick="document.getElementById('bimo').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+  m6.addTo(map).bindPopup(`<button onclick="document.getElementById('cemara').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+  m7.addTo(map).bindPopup(`<button onclick="document.getElementById('seruni').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+  m8.addTo(map).bindPopup(`<button onclick="document.getElementById('gwd').style.display='block'" class="w3-button w3-black">Perbesar</button>`)
+
+  
+ 
+
+
+
+
+  function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+ 
+
+
+
+
+
+</body>
+
+</html>
